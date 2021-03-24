@@ -1,0 +1,78 @@
+
+/*config gerais*/
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*config body*/
+
+body{
+background-color: #99EE99;
+margin-left: 36%;
+margin-top:2%;
+margin-bottom: 5%;
+justify-content: center;
+}
+
+
+h1{
+    
+    color:#2F4F4F;
+    
+}
+
+fieldset{
+    margin-top: 30px;
+    border: 0;
+}
+
+label{
+    color:#2F4F4F;
+    margin-top: 20px;
+    
+}
+
+.tec{
+    color: black;
+}
+
+
+input,select,textarea{
+    padding: 0.2em;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0,.2);
+    
+}
+
+input:focus, textarea:focus, select:focus{
+    background-color: #99EE79;;
+}
+
+
+
+input, select, textarea, button {
+    border-radius: 5px;
+}
+
+
+button{
+    border-radius: 5px;
+    color:#2F4F4F;
+    font-size: 15pt;
+    font-weight: bold;
+    width: 150px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0,.2);
+    position: absolute;
+    top: 103%;
+    left: 43%;
+    
+}
+
+button:hover{
+    background-color:#99EE99;
+    color: black;
+    
+}
